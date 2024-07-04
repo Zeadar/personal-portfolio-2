@@ -1,0 +1,36 @@
+.Box {
+  margin-top: 2rem;
+  /* width: calc(20rem + 10vmin); */
+  width: 20rem;
+  height: 20rem;
+  border: solid yellowgreen;
+  border-radius: 1rem;
+  background-color: rgba(0, 20, 10, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Link {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+.Space {
+  height: 100%;
+}
+
+.Image {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.Desc {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
