@@ -1,0 +1,75 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  font-size: calc(0.5rem + 2vmin);
+}
+
+.Display {
+  background-color: rgba(0, 20, 10, 0.4);
+  border: rgba(0, 20, 10, 0.9) solid;
+  width: 70vw;
+  min-height: 25rem;
+
+  margin: 1rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#Enter {
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Inputs {
+  color: white;
+  background-color: rgba(0, 20, 10, 0.4);
+  border: yellowgreen solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.Date-time {
+  display: flex;
+  justify-content: center;
+}
+
+.Tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.Item {
+  background: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.5) 50%, transparent 90%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item-text {
+  /* margin: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Buttons {
+  color: yellowgreen;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: solid yellowgreen;
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+
+@media (max-width: 1080px) {
+  .Display {
+    width: 100vw;
+  }
+}
+@media (max-width: 830px) {
+  .Date-time {
+    flex-direction: column;
+  }
+}

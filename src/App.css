@@ -17,9 +17,11 @@
 .App-header {
   background-color: rgba(0, 20, 10, 0.6);
   /* margin: 1rem; */
+  /* margin-top: 1rem; */
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: calc(0.2rem + 5vmin);
+  margin-bottom: 1rem;
+  /* margin-bottom: calc(0.2rem + 5vmin); */
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +43,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  height: 76vh;
+  /* height: 76vh; */
 }
 
 .Description {
@@ -62,6 +64,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+}
+
+.Flip-view {
+  color: yellowgreen;
+  border: yellowgreen solid;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  padding: 1rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 75rem) {
